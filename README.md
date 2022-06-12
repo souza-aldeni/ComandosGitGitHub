@@ -41,3 +41,7 @@
 ##### Atualizando o GitHub através de seu repositório local.
 
 + $ git push origin main 
+
+##### Fazendo um merge
+
++ $ git merge nome-da-branch
