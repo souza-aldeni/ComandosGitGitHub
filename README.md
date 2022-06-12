@@ -1,13 +1,43 @@
 # Desafio Git/GitHub
- 
-## Resumo dos principais comandos no GIT usando CLI com o Bash
 
- + Comando: $ git                     (mostra uma lista de comandos usados no Git);
- + Comando: $ git --version           (mostra a versão do Git instalado em seu computador);
- + Comando: $ git status              (mostra o status da sua árvore de trabalho e diz se a necessidade de se fazer um add ou commit);
- + Comando: $ git branch -M "main"    (renomeando a branch para main);
- + Comando: $ git add nome_do_arquivo (prepara apenas o arquivo discriminado no comando para o commit);
- + Comando: $ git add.                (prepara todos arquivos criados e alterados em seu repositorio local para o commit);
- + Comando: $ git remote add origin http://github.com/souza-aldeni/repositorio  (criando conexão com o repositorio remoto);
-                                      Obs.: origin - é o nome dado a conexão que foi criada.
- + Comando: $ git 
+### Resumo dos principais comandos no GIT usando CLI com o Bash
+
+
+
+##### Listando comandos usados no Git:
+
++ $ git
+
+##### Verificando a versão do Git instalado em seu computador:
+
++ $ git --version
+
+##### Visualizando o status da sua árvore de trabalho, onde podemos ver a necessidade de se fazer um add ou commit:
+
++ $ git status
+
+##### Inicializando ou reiniciando um repositório já existente
+
++ $ git init
+
+ ##### Renomeando a branch:
+
++ $ git branch -M "main" (renomeamos para main)
+
+ ##### Preparando apenas um arquivo ou todos arquivos (criados ou alterados) para o commit:
+
++ $ git add nome_do_arquivo (apenas o arquivo mencionado será considerado para o commit)
+
++ $ git add .  ( o ponto "." prepara todos os arquivos para o commit)
+
+##### Fazendo um commit
+
++ $ git commit -m "Primeiro commit"
+
+ ##### Criando conexão com o repositório remoto:
+
++ $ git remote add origin http://github.com/souza-aldeni/repositorio  (origin - é o nome dado a conexão)
+
+##### Atualizando o GitHub através de seu repositório local.
+
++ $ git push origin main 
