@@ -85,3 +85,9 @@
 + $ git remote
 + $ git remote -v
 
+##### Alterando o endereço da conexão remota em seu Git:
+
+ + $ git remote remove nome-da-conexao (removeu a conexão)
+ + $ git remote add origin https://github.com/novo-endereco (incluiu uma nova conexão)
+
+
