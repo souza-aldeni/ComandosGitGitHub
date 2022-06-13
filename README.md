@@ -1,4 +1,4 @@
-# Desafio Git/GitHub
+# Desafio de projeto da DIO Git/GitHub
 
 ### Resumo dos principais comandos no GIT usando CLI com o Bash
 
