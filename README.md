@@ -77,4 +77,11 @@
 + $ git config --global --unset user.nickname (apaga o nome)
 
 + $ git config --global --user.email "e-mail@email.com.br" (inclui o e-mail)
+
 + $ git config --global --user.nickname "seu nome" (inclui o nome)
+
+##### Verificando as conexões remotas no repositorio local:
+
++ $ git remote
++ $ git remote -v
+
