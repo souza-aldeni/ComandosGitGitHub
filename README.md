@@ -70,7 +70,11 @@
 
  + $ git config --list
 
-##### Retirando e-mail e nickname no config do GIT:
+##### Alterando o config do GIT:
 
- + $ git config --global --unset user.email
- + $ git config --global --unset user.nickname
++ $ git config --global --unset user.email (apaga o e-mail)
+
++ $ git config --global --unset user.nickname (apaga o nome)
+
++ $ git config --global --user.email "e-mail@email.com.br" (inclui o e-mail)
++ $ git config --global --user.nickname "seu nome" (inclui o nome)
