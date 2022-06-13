@@ -69,3 +69,8 @@
 ##### Visualizando as configurações do Git:
 
  + $ git config --list
+
+##### Retirando e-mail e nickname no config do GIT:
+
+ + $ git config --global --unset user.email
+ + $ git config --global --unset user.nickname
