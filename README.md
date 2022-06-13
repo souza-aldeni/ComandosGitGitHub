@@ -50,7 +50,7 @@
 
 + $ git push origin main 
 
-##### Fazendo um merge
+##### Fazendo um merge:
 
 + $ git merge nome-da-branch
 
@@ -63,6 +63,10 @@
  + $ git checkout -b "nova_branch" (além de criar uma nova branch já entra automaticamente nela)
 + $ git checkout -b "nova_branch" (além de criar uma nova branch já entra automaticamente nela)
 
-##### Clonando um repositorio do GitHub
+##### Clonando um repositorio do GitHub:
 
 + $ git clone https://github.com/souza-aldeni/repositorio
+
+##### Visualizando as configurações do Git:
+
+ + $ git config --list
