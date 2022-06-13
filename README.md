@@ -50,11 +50,10 @@
 
 + $ git push origin main 
 
-<<<<<<< HEAD
 ##### Fazendo um merge
 
 + $ git merge nome-da-branch
-=======
+
 ##### Mudando de branch:
 
 + $ git checkout minha-branch
@@ -62,4 +61,3 @@
 ##### Criando e mudando para uma nova branch:
 
  + $ git checkout -b "nova_branch" (além de criar uma nova branch já entra automaticamente nela)
->>>>>>> 079266e5db5fc8ee41d997cf9c266d4988c1478b
