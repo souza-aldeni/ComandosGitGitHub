@@ -36,7 +36,7 @@
 
 + $ git add nome_do_arquivo (apenas o arquivo mencionado será considerado para o commit)
 
-+ $ git add .  ( o ponto "." prepara todos os arquivos para o commit)
++ $ git add . ou -A ( o ponto "." ou "-A" prepara todos os arquivos para o commit)
 
 ##### Fazendo um commit:
 
